@@ -130,31 +130,14 @@ ul {
     margin-right: auto;
 }
 
-
 .gallery-item {
+    width: 100%;
+    display: block;
     color: white;
     font-weight: bold;
     text-align: center;
     position: relative;
 }
-
-.visually-hidden {
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: 0.5s ease;
-}
-
-
-.gallery-item:hover {
-    cursor: pointer;
-    opacity: 1;
-    transition: 0.5s ease;
-    filter: brightness(50%);
-}
-
 
 .gallery-item-info {
     position: absolute;
@@ -167,8 +150,15 @@ ul {
     transition: 0.5s ease;
 }
 
+.gallery-item:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s ease;
+    filter: brightness(55%);
+}
 
-
+/*END OF GALLERY SECTION*/
+    /* GALLERY SECTION INCOMPELTE LACK OF UNDERSTANDING*/
 
 /*LOADER SECTION*/
 
